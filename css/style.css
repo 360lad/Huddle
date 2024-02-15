@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.hero__left {
+  float: left;
+  flex-direction: column;
+}
+
+.hero__right {
+  flex-direction: row;
+}
+
+.hero {
+  padding-left: 5%;
+}
