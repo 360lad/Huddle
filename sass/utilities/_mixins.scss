@@ -1,9 +1,13 @@
+<<<<<<< HEAD
+@mixin flex($justify-content, $align-items,$flex-direction:row, $flex-wrap: wrap, ) {
+=======
 @mixin flex(
   $justify-content,
   $align-items,
   $flex-direction: row,
   $flex-wrap: wrap
 ) {
+>>>>>>> 088c20061e5ab81ad59fa52a207f5f6d528db298
   display: flex;
   justify-content: $justify-content;
   align-items: $align-items;

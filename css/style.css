@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hero__ready {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  border: none;
+  padding: 1em;
+  border-radius: 50px;
+  background-color: rgb(173, 5, 123);
+=======
 .nav__container {
   display: flex;
 }
@@ -26,4 +47,5 @@ footer {
 
 .container {
   margin: 2em;
+>>>>>>> 088c20061e5ab81ad59fa52a207f5f6d528db298
 }

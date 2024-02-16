@@ -1,0 +1,15 @@
+@use "../utilities/mixins" as *;
+.hero {
+  &__content {
+    @include flex(space-between, center);
+  }
+}
+.hero__ready {
+  @include flex(center, center, column);
+}
+.btn{
+  border:none ;
+  padding:1em;
+  border-radius:50px;
+background-color: rgb(173, 5, 123);
+}
