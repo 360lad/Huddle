@@ -1,9 +1,14 @@
-@use"../utilities/mixins" as *;
-.hero{
-  &__content{
-    @include flex(space-between,center)
+@use "../utilities/mixins" as *;
+.hero {
+  &__content {
+    @include flex(space-between, center);
   }
-  
 }
-.hero__ready
-
+.hero__ready {
+  @include flex(center, center, column);
+}
+.btn{
+  border:none ;
+  padding:4em;
+  border-top-right-radius:40%;
+}
