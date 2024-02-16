@@ -4,19 +4,7 @@
   box-sizing: border-box;
 }
 
-.hero__left {
-  float: left;
-  flex-direction: column;
-}
-
-.hero__right {
-  flex-direction: row;
-}
-
-.hero {
-  padding-left: 5%;
-}
-
 .hero__content {
   display: flex;
+  padding-left: 5%;
 }
