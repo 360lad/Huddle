@@ -6,26 +6,6 @@
 
 .hero__content {
   display: flex;
-  padding-left: 5%;
-}
-
-.container__grow {
-  box-shadow: 30px;
-  padding-bottom: 5%;
-}
-
-.container__follow {
-  padding-bottom: 5%;
-}
-
-.container__user {
-  padding-bottom: 5%;
-}
-
-.hero__text {
-  width: 30%;
-}
-
-.container__user {
-  box-shadow: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
