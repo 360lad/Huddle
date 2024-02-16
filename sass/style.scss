@@ -1,5 +1,11 @@
 @use "./utilities/base";
+@import "./sections/nav";
 
-body {
-  background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 2em ;
 }

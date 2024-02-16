@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: red;
+.nav__container {
+  display: flex;
+}
+
+.nav__btn--container {
+  padding: 4em;
+  background-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 2em;
 }
