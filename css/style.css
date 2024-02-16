@@ -39,6 +39,10 @@ footer {
   background-color: hsl(192, 100%, 9%);
 }
 
+.footer__right img {
+  width: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
