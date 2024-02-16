@@ -1,0 +1,12 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+footer {
+  //   @include flex(space-between,center);
+  display: flex;
+  background-color: $DarkCyan;
+}
+
+.footer__right img {
+  width: 50px;
+}
